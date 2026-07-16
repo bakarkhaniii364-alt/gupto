@@ -145,46 +145,33 @@ const AVATAR_COLORS = [
 ];
 
 const CUTE_WORD_PAIRS = [
-    // --- Animals ---
-    ["Cheetah", "Leopard"], ["Alligator", "Crocodile"], ["Butterfly", "Moth"], ["Bee", "Wasp"],
-    ["Raven", "Crow"], ["Hamster", "Guinea Pig"], ["Donkey", "Mule"], ["Pigeon", "Seagull"],
-    ["Otter", "Beaver"], ["Frog", "Toad"], ["Spider", "Scorpion"], ["Lion", "Tiger"],
-    ["Eagle", "Falcon"], ["Squirrel", "Chipmunk"], ["Seal", "Sea Lion"], ["Goat", "Sheep"],
-    ["Camel", "Llama"], ["Snail", "Slug"], ["Octopus", "Squid"], ["Deer", "Elk"],
-    ["Duck", "Goose"], ["Crab", "Lobster"], ["Moose", "Reindeer"], ["Panther", "Cougar"],
+    // --- Roles & Jobs ---
+    ["King", "President"], ["Astronaut", "Pilot"], ["Chef", "Baker"], ["Thief", "Magician"],
+    ["Spy", "Detective"], ["Barista", "Bartender"], ["Teacher", "Professor"], ["Soldier", "Knight"],
+    ["Doctor", "Dentist"], ["Sailor", "Pirate"], ["Gardener", "Farmer"], ["Judge", "Police Officer"],
     
-    // --- Food & Drinks ---
-    ["Lemonade", "Limeade"], ["Pancake", "Waffle"], ["Ketchup", "Mustard"], ["Milkshake", "Smoothie"],
-    ["Muffin", "Cupcake"], ["Sushi", "Sashimi"], ["Taco", "Burrito"], ["Cookie", "Biscuit"],
-    ["Hot Chocolate", "Mocha"], ["Cheese", "Butter"], ["Ramen", "Pho"], ["Bacon", "Sausage"],
-    ["Onion", "Garlic"], ["Pepper", "Chili"], ["Strawberry", "Raspberry"], ["Peach", "Apricot"],
-    ["Watermelon", "Cantaloupe"], ["Broccoli", "Cauliflower"], ["Spaghetti", "Macaroni"], ["Honey", "Syrup"],
-    ["Whiskey", "Rum"], ["Wine", "Champagne"], ["Salt", "Pepper"], ["Mayonnaise", "Salad Dressing"],
-    ["Espresso", "Americano"], ["Cider", "Apple Juice"], ["Bagel", "Donut"], ["Gelato", "Sherbet"],
+    // --- Pop Culture & Fun Concepts ---
+    ["Superhero", "Vigilante"], ["Robot", "Cyborg"], ["Magic", "Science"], ["Alien", "Ghost"],
+    ["Zombie", "Vampire"], ["Gold", "Bronze"], ["Angel", "Fairy"], ["Monster", "Dinosaur"],
+    ["Princess", "Queen"], ["Witch", "Wizard"], ["Ninja", "Samurai"], ["Dragon", "Phoenix"],
+    
+    // --- Daily Life & Objects ---
+    ["Laptop", "Tablet"], ["Guitar", "Piano"], ["Bicycle", "Motorcycle"], ["Mirror", "Camera"],
+    ["Map", "GPS"], ["Diary", "Facebook"], ["Campfire", "Fireplace"], ["Glasses", "Sunglasses"],
+    ["Sneakers", "High Heels"], ["Suitcase", "Backpack"], ["Candle", "Flashlight"], ["Umbrella", "Raincoat"],
+    ["Broom", "Vacuum"], ["Pen", "Pencil"], ["Watch", "Hourglass"], ["Phone", "Walkie Talkie"],
+    ["Key", "Lockbox"], ["Book", "Kindle"], ["Newspaper", "Magazine"], ["Pillow", "Sleeping Bag"],
     
     // --- Places & Nature ---
-    ["Desert", "Savannah"], ["Jungle", "Rainforest"], ["Cave", "Tunnel"], ["River", "Canal"],
-    ["Waterfall", "Geyser"], ["Island", "Peninsula"], ["Park", "Garden"], ["Skyline", "Horizon"],
-    ["Glacier", "Iceberg"], ["Canyon", "Valley"], ["Ocean", "Sea"], ["Swamp", "Marsh"],
-    ["Mountain", "Volcano"], ["Pond", "Puddle"], ["Beach", "Coast"], ["Cliff", "Slope"],
+    ["Zoo", "Safari"], ["Beach", "Desert"], ["Jungle", "Forest"], ["Mountain", "Volcano"],
+    ["River", "Waterfall"], ["Glacier", "Iceberg"], ["Library", "Bookstore"], ["Cinema", "Theater"],
+    ["Pool", "Ocean"], ["Cave", "Tunnel"], ["Island", "Oasis"], ["Park", "Playground"],
     
-    // --- Household & Clothing ---
-    ["Backpack", "Briefcase"], ["Blanket", "Duvet"], ["Mirror", "Window"], ["Candle", "Lantern"],
-    ["Screwdriver", "Drill"], ["Perfume", "Cologne"], ["Bucket", "Basin"], ["Socks", "Slippers"],
-    ["Helmet", "Cap"], ["Gloves", "Mittens"], ["Sneakers", "Boots"], ["Jeans", "Trousers"],
-    ["Tie", "Bowtie"], ["Scarf", "Shawl"], ["Raincoat", "Umbrella"], ["Pillow", "Cushion"],
-    ["Ladder", "Stairs"], ["Soap", "Shampoo"], ["Toothbrush", "Floss"], ["Curtain", "Blind"],
-    ["Rug", "Carpet"], ["Sweater", "Cardigan"], ["Wallet", "Purse"], ["Suitcase", "Duffel Bag"],
-    
-    // --- Objects & Hobby ---
-    ["Guitar", "Ukulele"], ["Microscope", "Telescope"], ["Hammer", "Mallet"], ["Violin", "Viola"],
-    ["Soccer", "Rugby"], ["Tennis", "Badminton"], ["Chess", "Checkers"], ["Painting", "Sketch"],
-    ["Keyboard", "Typewriter"], ["Trophy", "Medal"], ["Ticket", "Pass"], ["Diary", "Notebook"],
-    ["Crayon", "Marker"], ["Brick", "Stone"], ["Plaster", "Concrete"], ["Feather", "Fur"],
-    ["Leather", "Suede"], ["Clock", "Hourglass"], ["Map", "Compass"], ["Magnet", "Gravity"],
-    ["Smoke", "Steam"], ["Dust", "Sand"], ["Battery", "Generator"], ["Flame", "Spark"],
-    ["Diamond", "Emerald"], ["Laptop", "Desktop"], ["Airplane", "Helicopter"], ["Submarine", "Ship"],
-    ["Train", "Tram"], ["Bicycle", "Skateboard"], ["Gold", "Platinum"], ["Spoon", "Fork"]
+    // --- Food & Drinks ---
+    ["Coffee", "Tea"], ["Wine", "Beer"], ["Pizza", "Burger"], ["Ice Cream", "Yogurt"],
+    ["Honey", "Maple Syrup"], ["Onion", "Garlic"], ["Soup", "Salad"], ["Apple", "Orange"],
+    ["Ramen", "Spaghetti"], ["Soda", "Energy Drink"], ["Chocolate", "Candy"], ["Bread", "Croissant"],
+    ["Taco", "Burrito"], ["Cookie", "Cake"], ["Butter", "Cheese"], ["Ketchup", "Hot Sauce"]
 ];
 
 const state = {
